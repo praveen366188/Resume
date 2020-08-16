@@ -1,0 +1,39 @@
+body {
+  background-color: #EAF6F6;
+font-family: 'Merriweather', serif;
+line-height: 1.5;
+}
+
+hr{
+background-color: white;
+border-style: dotted none none;
+border-color: grey;
+border-width: 3px;
+width: 90%;
+height: 2px;}
+
+h2{
+font-family: 'Oswald', sans-serif;
+
+color: #66BFBF;}
+
+.praveenName{
+color: #66BFBF;
+position: relative;
+text-align: center;
+font-size: 2.5rem;
+font-style: oblique;
+font-family: 'Pangolin', cursive;
+font-family: 'Oswald', sans-serif;
+}
+img:hover{
+
+  background-color: gold;
+}
+
+.smallpic{
+
+  position: fixed;
+  right: 20px;
+
+}
