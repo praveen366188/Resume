@@ -37,3 +37,21 @@ img:hover{
   right: 20px;
 
 }
+.submitBtnContactMe{
+
+text-align: center;
+margin-left: 200px;
+
+
+}
+.contactmeTable{
+padding: 30px;
+
+
+
+}
+.contactMeContainer{
+border-color: black;
+border-style: dotted;
+padding: 15px;
+}

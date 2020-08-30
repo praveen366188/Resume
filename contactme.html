@@ -1,31 +1,77 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Contact praveenkumar</title>
-    <link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Oswald:wght@600&family=Pangolin&display=swap" rel="stylesheet">  </head>
-  <body>
-    <h2>Contact Me</h2>
-      <hr size="2" noshade>
-<br>
-    <form class="" action="getBackToYou.html" method="post" enctype="text/plain">
-<label for="name">Your good name:</label>
-<input type="text" name="yourName" value=""><br>
-<label for="name">Email</label>
-<input type="email" name="yourEmail" value=""><br>
-<label for="name">Your phone number:</label>
-<input type="text" name="yourPhone" value=""><br>
-<label for="name">Like to interview me??</label>
-<input type="radio" name="yesOrNo" value=""><br>
-<label for="">Date:</label>
-<input type="date" name="dateOfInterview" value=""><br>
-<label for="">Message:</label><br>
-<textarea name="message" rows="8" cols="80"></textarea>
-<input type="submit" name="Submit" value="Submit">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact praveenkumar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Oswald:wght@600&family=Pangolin&display=swap" rel="stylesheet">
 
 
 
-    </form>
-  </body>
+
+</head>
+
+<body>
+  <h2>Contact Me</h2>
+  <hr size="2" noshade>
+  <br>
+
+  <div class="contactMeContainer">
+
+  <form class="" action="getBackToYou.html" method="post" enctype="text/plain">
+
+
+    <table class="contactmeTable">
+      <tr>
+        <td><label for="name">Your good name:</label>
+        </td>
+        <td><input type="text" name="yourPhone" value=""><br>
+        </td>
+
+      </tr>
+      <tr>
+        <td><label for="name">Email</label>
+        </td>
+        <td><input type="email" name="yourEmail" value=""><br>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="name">Your phone number:</label>
+        </td>
+        <td><input type="text" name="yourPhone" value=""><br>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="name">Like to interview me??</label>
+        </td>
+        <td><input type="radio" name="yesOrNo" value="YesNo"><br>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="">Date:</label>
+        </td>
+        <td><input type="date" name="dateOfInterview" value=""><br>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="">Message:</label><br>
+        </td>
+        <td><textarea name="message" rows="8" cols="80"></textarea>
+        </td>
+      </tr>
+
+    </table>
+
+
+    <input class="submitBtnContactMe" type="submit" name="Submit" value="Submit">
+
+
+</div>
+
+
+
+  </form>
+</body>
+
 </html>
